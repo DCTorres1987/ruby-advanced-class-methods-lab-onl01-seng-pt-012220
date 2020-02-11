@@ -16,7 +16,7 @@ def self.create
     song
   end
   
-  def song.create
+  def song.new_by_name(name)
     song = song.new_by_name("The Middle")
     song.name
     
