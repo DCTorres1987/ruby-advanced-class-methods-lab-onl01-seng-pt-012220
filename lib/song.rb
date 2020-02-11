@@ -32,7 +32,8 @@ def self.create
     @@all.each do |song|
       if song.name == name 
         song 
-      end  
+      end
+    end
   end
 
 end
