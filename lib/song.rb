@@ -29,6 +29,8 @@ def self.create
   end
     
   def self.find_by_name(name)
-    
+    song.name = name
+    song
+  end
 
 end
