@@ -53,4 +53,7 @@ def self.create
     song.artist_name = (name.split(" - ")[0])
     song
   end
+  
+  def self.destroy_all
+    
 end
