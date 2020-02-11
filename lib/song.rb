@@ -37,7 +37,7 @@ def self.create
   end
   
   def self.alphabetical
-    @@all.sort
+    @@all.sort_by{|songs|
   end
   
 end
